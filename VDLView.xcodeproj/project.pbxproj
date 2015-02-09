@@ -7,12 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99D25D92DF61B52B88BFA33D /* libPods-VDLView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB9682F1E4EDD2940F752AA /* libPods-VDLView.a */; };
 		C2D1CE3D1A88C66200C68517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE3C1A88C66200C68517 /* AppDelegate.swift */; };
 		C2D1CE3F1A88C66200C68517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE3E1A88C66200C68517 /* ViewController.swift */; };
 		C2D1CE421A88C66200C68517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D1CE401A88C66200C68517 /* Main.storyboard */; };
 		C2D1CE441A88C66200C68517 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D1CE431A88C66200C68517 /* Images.xcassets */; };
 		C2D1CE471A88C66200C68517 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D1CE451A88C66200C68517 /* LaunchScreen.xib */; };
 		C2D1CE531A88C66200C68517 /* VDLViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE521A88C66200C68517 /* VDLViewTests.swift */; };
+		C2D1CE7D1A88C86300C68517 /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE601A88C86300C68517 /* AEXML.swift */; };
+		C2D1CE7E1A88C86300C68517 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE611A88C86300C68517 /* ColorHelper.swift */; };
+		C2D1CE7F1A88C86300C68517 /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE621A88C86300C68517 /* EventManager.swift */; };
+		C2D1CE801A88C86300C68517 /* GradientNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE631A88C86300C68517 /* GradientNode.swift */; };
+		C2D1CE811A88C86300C68517 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE641A88C86300C68517 /* LocalStorage.swift */; };
+		C2D1CE821A88C86300C68517 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE651A88C86300C68517 /* StringExtension.swift */; };
+		C2D1CE831A88C86300C68517 /* SwiftRegEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE661A88C86300C68517 /* SwiftRegEx.swift */; };
+		C2D1CE841A88C86300C68517 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE671A88C86300C68517 /* UIColorExtension.swift */; };
+		C2D1CE851A88C86300C68517 /* VDLBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE681A88C86300C68517 /* VDLBaseView.swift */; };
+		C2D1CE861A88C86300C68517 /* VDLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE691A88C86300C68517 /* VDLBuilder.swift */; };
+		C2D1CE871A88C86300C68517 /* VDLCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE6A1A88C86300C68517 /* VDLCollectionCell.swift */; };
+		C2D1CE881A88C86300C68517 /* VDLCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE6B1A88C86300C68517 /* VDLCreator.swift */; };
+		C2D1CE891A88C86300C68517 /* VDLDefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE6C1A88C86300C68517 /* VDLDefaultValues.swift */; };
+		C2D1CE8A1A88C86300C68517 /* VDLElementStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE6D1A88C86300C68517 /* VDLElementStyle.swift */; };
+		C2D1CE8B1A88C86300C68517 /* VDLExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE6E1A88C86300C68517 /* VDLExpression.swift */; };
+		C2D1CE8C1A88C86300C68517 /* VDLExpressionVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE6F1A88C86300C68517 /* VDLExpressionVariable.swift */; };
+		C2D1CE8D1A88C86300C68517 /* VDLGradientNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE701A88C86300C68517 /* VDLGradientNode.swift */; };
+		C2D1CE8E1A88C86300C68517 /* VDLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE711A88C86300C68517 /* VDLImageView.swift */; };
+		C2D1CE8F1A88C86300C68517 /* VDLLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE731A88C86300C68517 /* VDLLabelView.swift */; };
+		C2D1CE901A88C86300C68517 /* VDLNodeParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE741A88C86300C68517 /* VDLNodeParameters.swift */; };
+		C2D1CE911A88C86300C68517 /* VDLStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE751A88C86300C68517 /* VDLStructure.swift */; };
+		C2D1CE921A88C86300C68517 /* VDLStructureNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE761A88C86300C68517 /* VDLStructureNode.swift */; };
+		C2D1CE931A88C86300C68517 /* VDLStyleParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE771A88C86300C68517 /* VDLStyleParser.swift */; };
+		C2D1CE941A88C86300C68517 /* VDLStyleValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE781A88C86300C68517 /* VDLStyleValue.swift */; };
+		C2D1CE951A88C86300C68517 /* VDLVariableFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE791A88C86300C68517 /* VDLVariableFloat.swift */; };
+		C2D1CE961A88C86300C68517 /* VDLVariableOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE7A1A88C86300C68517 /* VDLVariableOperation.swift */; };
+		C2D1CE971A88C86300C68517 /* VDLVariableReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE7B1A88C86300C68517 /* VDLVariableReference.swift */; };
+		C2D1CE981A88C86300C68517 /* VDLWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D1CE7C1A88C86300C68517 /* VDLWorld.swift */; };
+		C2D1CEA41A88CA0300C68517 /* test2.vdl in Resources */ = {isa = PBXBuildFile; fileRef = C2D1CEA31A88CA0300C68517 /* test2.vdl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +56,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DB9682F1E4EDD2940F752AA /* libPods-VDLView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VDLView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AC3674A660D020CA66A4CE7 /* Pods-VDLView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDLView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VDLView/Pods-VDLView.debug.xcconfig"; sourceTree = "<group>"; };
+		8D8EFEEC6C085268A60CBA51 /* Pods-VDLView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDLView.release.xcconfig"; path = "Pods/Target Support Files/Pods-VDLView/Pods-VDLView.release.xcconfig"; sourceTree = "<group>"; };
 		C2D1CE371A88C66200C68517 /* VDLView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VDLView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D1CE3B1A88C66200C68517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2D1CE3C1A88C66200C68517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +69,36 @@
 		C2D1CE4C1A88C66200C68517 /* VDLViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VDLViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D1CE511A88C66200C68517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2D1CE521A88C66200C68517 /* VDLViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDLViewTests.swift; sourceTree = "<group>"; };
+		C2D1CE601A88C86300C68517 /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AEXML.swift; path = Source/AEXML.swift; sourceTree = "<group>"; };
+		C2D1CE611A88C86300C68517 /* ColorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorHelper.swift; path = Source/ColorHelper.swift; sourceTree = "<group>"; };
+		C2D1CE621A88C86300C68517 /* EventManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventManager.swift; path = Source/EventManager.swift; sourceTree = "<group>"; };
+		C2D1CE631A88C86300C68517 /* GradientNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradientNode.swift; path = Source/GradientNode.swift; sourceTree = "<group>"; };
+		C2D1CE641A88C86300C68517 /* LocalStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalStorage.swift; path = Source/LocalStorage.swift; sourceTree = "<group>"; };
+		C2D1CE651A88C86300C68517 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = Source/StringExtension.swift; sourceTree = "<group>"; };
+		C2D1CE661A88C86300C68517 /* SwiftRegEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftRegEx.swift; path = Source/SwiftRegEx.swift; sourceTree = "<group>"; };
+		C2D1CE671A88C86300C68517 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Source/UIColorExtension.swift; sourceTree = "<group>"; };
+		C2D1CE681A88C86300C68517 /* VDLBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLBaseView.swift; path = Source/VDLBaseView.swift; sourceTree = "<group>"; };
+		C2D1CE691A88C86300C68517 /* VDLBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLBuilder.swift; path = Source/VDLBuilder.swift; sourceTree = "<group>"; };
+		C2D1CE6A1A88C86300C68517 /* VDLCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLCollectionCell.swift; path = Source/VDLCollectionCell.swift; sourceTree = "<group>"; };
+		C2D1CE6B1A88C86300C68517 /* VDLCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLCreator.swift; path = Source/VDLCreator.swift; sourceTree = "<group>"; };
+		C2D1CE6C1A88C86300C68517 /* VDLDefaultValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLDefaultValues.swift; path = Source/VDLDefaultValues.swift; sourceTree = "<group>"; };
+		C2D1CE6D1A88C86300C68517 /* VDLElementStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLElementStyle.swift; path = Source/VDLElementStyle.swift; sourceTree = "<group>"; };
+		C2D1CE6E1A88C86300C68517 /* VDLExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLExpression.swift; path = Source/VDLExpression.swift; sourceTree = "<group>"; };
+		C2D1CE6F1A88C86300C68517 /* VDLExpressionVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLExpressionVariable.swift; path = Source/VDLExpressionVariable.swift; sourceTree = "<group>"; };
+		C2D1CE701A88C86300C68517 /* VDLGradientNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLGradientNode.swift; path = Source/VDLGradientNode.swift; sourceTree = "<group>"; };
+		C2D1CE711A88C86300C68517 /* VDLImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLImageView.swift; path = Source/VDLImageView.swift; sourceTree = "<group>"; };
+		C2D1CE731A88C86300C68517 /* VDLLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLLabelView.swift; path = Source/VDLLabelView.swift; sourceTree = "<group>"; };
+		C2D1CE741A88C86300C68517 /* VDLNodeParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLNodeParameters.swift; path = Source/VDLNodeParameters.swift; sourceTree = "<group>"; };
+		C2D1CE751A88C86300C68517 /* VDLStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLStructure.swift; path = Source/VDLStructure.swift; sourceTree = "<group>"; };
+		C2D1CE761A88C86300C68517 /* VDLStructureNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLStructureNode.swift; path = Source/VDLStructureNode.swift; sourceTree = "<group>"; };
+		C2D1CE771A88C86300C68517 /* VDLStyleParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLStyleParser.swift; path = Source/VDLStyleParser.swift; sourceTree = "<group>"; };
+		C2D1CE781A88C86300C68517 /* VDLStyleValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLStyleValue.swift; path = Source/VDLStyleValue.swift; sourceTree = "<group>"; };
+		C2D1CE791A88C86300C68517 /* VDLVariableFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLVariableFloat.swift; path = Source/VDLVariableFloat.swift; sourceTree = "<group>"; };
+		C2D1CE7A1A88C86300C68517 /* VDLVariableOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLVariableOperation.swift; path = Source/VDLVariableOperation.swift; sourceTree = "<group>"; };
+		C2D1CE7B1A88C86300C68517 /* VDLVariableReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLVariableReference.swift; path = Source/VDLVariableReference.swift; sourceTree = "<group>"; };
+		C2D1CE7C1A88C86300C68517 /* VDLWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VDLWorld.swift; path = Source/VDLWorld.swift; sourceTree = "<group>"; };
+		C2D1CEA01A88C9E800C68517 /* VDLView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VDLView-Bridging-Header.h"; sourceTree = "<group>"; };
+		C2D1CEA31A88CA0300C68517 /* test2.vdl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test2.vdl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99D25D92DF61B52B88BFA33D /* libPods-VDLView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +120,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		482F4EC5C90598BF23BA7A26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AC3674A660D020CA66A4CE7 /* Pods-VDLView.debug.xcconfig */,
+				8D8EFEEC6C085268A60CBA51 /* Pods-VDLView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C2D1CE2E1A88C66200C68517 = {
 			isa = PBXGroup;
 			children = (
 				C2D1CE391A88C66200C68517 /* VDLView */,
 				C2D1CE4F1A88C66200C68517 /* VDLViewTests */,
 				C2D1CE381A88C66200C68517 /* Products */,
+				482F4EC5C90598BF23BA7A26 /* Pods */,
+				FDB5B2766182264E13D7B9FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +152,8 @@
 		C2D1CE391A88C66200C68517 /* VDLView */ = {
 			isa = PBXGroup;
 			children = (
+				C2D1CEA31A88CA0300C68517 /* test2.vdl */,
+				C2D1CE5C1A88C76600C68517 /* Source */,
 				C2D1CE3C1A88C66200C68517 /* AppDelegate.swift */,
 				C2D1CE3E1A88C66200C68517 /* ViewController.swift */,
 				C2D1CE401A88C66200C68517 /* Main.storyboard */,
@@ -112,6 +189,106 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C2D1CE5C1A88C76600C68517 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C2D1CE9F1A88C94400C68517 /* nodes */,
+				C2D1CE9E1A88C91700C68517 /* ui */,
+				C2D1CE9D1A88C8FF00C68517 /* helpers */,
+				C2D1CE9C1A88C8EA00C68517 /* style */,
+				C2D1CE9B1A88C8C000C68517 /* views */,
+				C2D1CE9A1A88C89E00C68517 /* main */,
+				C2D1CE991A88C86700C68517 /* expression */,
+				C2D1CEA01A88C9E800C68517 /* VDLView-Bridging-Header.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		C2D1CE991A88C86700C68517 /* expression */ = {
+			isa = PBXGroup;
+			children = (
+				C2D1CE6E1A88C86300C68517 /* VDLExpression.swift */,
+				C2D1CE6F1A88C86300C68517 /* VDLExpressionVariable.swift */,
+				C2D1CE791A88C86300C68517 /* VDLVariableFloat.swift */,
+				C2D1CE7A1A88C86300C68517 /* VDLVariableOperation.swift */,
+				C2D1CE7B1A88C86300C68517 /* VDLVariableReference.swift */,
+			);
+			name = expression;
+			sourceTree = "<group>";
+		};
+		C2D1CE9A1A88C89E00C68517 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				C2D1CE6C1A88C86300C68517 /* VDLDefaultValues.swift */,
+				C2D1CE6B1A88C86300C68517 /* VDLCreator.swift */,
+				C2D1CE7C1A88C86300C68517 /* VDLWorld.swift */,
+				C2D1CE691A88C86300C68517 /* VDLBuilder.swift */,
+				C2D1CE751A88C86300C68517 /* VDLStructure.swift */,
+				C2D1CE761A88C86300C68517 /* VDLStructureNode.swift */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		C2D1CE9B1A88C8C000C68517 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C2D1CE701A88C86300C68517 /* VDLGradientNode.swift */,
+				C2D1CE681A88C86300C68517 /* VDLBaseView.swift */,
+				C2D1CE711A88C86300C68517 /* VDLImageView.swift */,
+				C2D1CE731A88C86300C68517 /* VDLLabelView.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		C2D1CE9C1A88C8EA00C68517 /* style */ = {
+			isa = PBXGroup;
+			children = (
+				C2D1CE771A88C86300C68517 /* VDLStyleParser.swift */,
+				C2D1CE6D1A88C86300C68517 /* VDLElementStyle.swift */,
+				C2D1CE781A88C86300C68517 /* VDLStyleValue.swift */,
+			);
+			name = style;
+			sourceTree = "<group>";
+		};
+		C2D1CE9D1A88C8FF00C68517 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C2D1CE601A88C86300C68517 /* AEXML.swift */,
+				C2D1CE661A88C86300C68517 /* SwiftRegEx.swift */,
+				C2D1CE671A88C86300C68517 /* UIColorExtension.swift */,
+				C2D1CE651A88C86300C68517 /* StringExtension.swift */,
+				C2D1CE611A88C86300C68517 /* ColorHelper.swift */,
+				C2D1CE621A88C86300C68517 /* EventManager.swift */,
+			);
+			name = helpers;
+			sourceTree = "<group>";
+		};
+		C2D1CE9E1A88C91700C68517 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				C2D1CE6A1A88C86300C68517 /* VDLCollectionCell.swift */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		C2D1CE9F1A88C94400C68517 /* nodes */ = {
+			isa = PBXGroup;
+			children = (
+				C2D1CE641A88C86300C68517 /* LocalStorage.swift */,
+				C2D1CE631A88C86300C68517 /* GradientNode.swift */,
+				C2D1CE741A88C86300C68517 /* VDLNodeParameters.swift */,
+			);
+			name = nodes;
+			sourceTree = "<group>";
+		};
+		FDB5B2766182264E13D7B9FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DB9682F1E4EDD2940F752AA /* libPods-VDLView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2D1CE561A88C66200C68517 /* Build configuration list for PBXNativeTarget "VDLView" */;
 			buildPhases = (
+				7C3F57BB892F043E0DDBA66E /* Check Pods Manifest.lock */,
 				C2D1CE331A88C66200C68517 /* Sources */,
 				C2D1CE341A88C66200C68517 /* Frameworks */,
 				C2D1CE351A88C66200C68517 /* Resources */,
+				CC42E39957B887A0E7A939F2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +374,7 @@
 				C2D1CE421A88C66200C68517 /* Main.storyboard in Resources */,
 				C2D1CE471A88C66200C68517 /* LaunchScreen.xib in Resources */,
 				C2D1CE441A88C66200C68517 /* Images.xcassets in Resources */,
+				C2D1CEA41A88CA0300C68517 /* test2.vdl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,13 +387,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C3F57BB892F043E0DDBA66E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC42E39957B887A0E7A939F2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VDLView/Pods-VDLView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2D1CE331A88C66200C68517 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2D1CE861A88C86300C68517 /* VDLBuilder.swift in Sources */,
+				C2D1CE8E1A88C86300C68517 /* VDLImageView.swift in Sources */,
+				C2D1CE961A88C86300C68517 /* VDLVariableOperation.swift in Sources */,
+				C2D1CE911A88C86300C68517 /* VDLStructure.swift in Sources */,
+				C2D1CE8A1A88C86300C68517 /* VDLElementStyle.swift in Sources */,
+				C2D1CE7F1A88C86300C68517 /* EventManager.swift in Sources */,
+				C2D1CE801A88C86300C68517 /* GradientNode.swift in Sources */,
+				C2D1CE871A88C86300C68517 /* VDLCollectionCell.swift in Sources */,
 				C2D1CE3F1A88C66200C68517 /* ViewController.swift in Sources */,
+				C2D1CE831A88C86300C68517 /* SwiftRegEx.swift in Sources */,
+				C2D1CE951A88C86300C68517 /* VDLVariableFloat.swift in Sources */,
+				C2D1CE7D1A88C86300C68517 /* AEXML.swift in Sources */,
+				C2D1CE971A88C86300C68517 /* VDLVariableReference.swift in Sources */,
+				C2D1CE8D1A88C86300C68517 /* VDLGradientNode.swift in Sources */,
+				C2D1CE901A88C86300C68517 /* VDLNodeParameters.swift in Sources */,
+				C2D1CE881A88C86300C68517 /* VDLCreator.swift in Sources */,
+				C2D1CE821A88C86300C68517 /* StringExtension.swift in Sources */,
+				C2D1CE921A88C86300C68517 /* VDLStructureNode.swift in Sources */,
+				C2D1CE8C1A88C86300C68517 /* VDLExpressionVariable.swift in Sources */,
+				C2D1CE981A88C86300C68517 /* VDLWorld.swift in Sources */,
 				C2D1CE3D1A88C66200C68517 /* AppDelegate.swift in Sources */,
+				C2D1CE931A88C86300C68517 /* VDLStyleParser.swift in Sources */,
+				C2D1CE8F1A88C86300C68517 /* VDLLabelView.swift in Sources */,
+				C2D1CE841A88C86300C68517 /* UIColorExtension.swift in Sources */,
+				C2D1CE8B1A88C86300C68517 /* VDLExpression.swift in Sources */,
+				C2D1CE851A88C86300C68517 /* VDLBaseView.swift in Sources */,
+				C2D1CE811A88C86300C68517 /* LocalStorage.swift in Sources */,
+				C2D1CE7E1A88C86300C68517 /* ColorHelper.swift in Sources */,
+				C2D1CE941A88C86300C68517 /* VDLStyleValue.swift in Sources */,
+				C2D1CE891A88C86300C68517 /* VDLDefaultValues.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,21 +577,28 @@
 		};
 		C2D1CE571A88C66200C68517 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AC3674A660D020CA66A4CE7 /* Pods-VDLView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = VDLView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VDLView/VDLView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C2D1CE581A88C66200C68517 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D8EFEEC6C085268A60CBA51 /* Pods-VDLView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = VDLView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VDLView/VDLView-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +655,7 @@
 				C2D1CE581A88C66200C68517 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2D1CE591A88C66200C68517 /* Build configuration list for PBXNativeTarget "VDLViewTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +664,7 @@
 				C2D1CE5B1A88C66200C68517 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -13,6 +13,13 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
+		
+		var defaultValues = VDLDefaultValues();
+		defaultValues.addValue("header", value:  "Test");
+		
+		var world = VDLBuilder.inflate("test2", size : self.view.frame.size, values : defaultValues);
+		world.rootNode.layerBacked = false;
+		self.view.addSubview(world.rootNode.view);
 	}
 
 	override func didReceiveMemoryWarning() {

@@ -1,0 +1,26 @@
+<style>
+
+#main {
+	
+	width	: $root.width;
+	height	: 200;
+	background-color: red;
+	alpha: 0.5;
+	
+}
+#gradient {
+	width : $parent.width;
+	height: 100;
+	border: blue 2;
+	
+	gradient-from: black 0.0;
+	gradient-to: black 0.3;
+}
+
+</style>
+
+<view id="main">
+	
+	
+	<gradient id="gradient"></gradient>
+</view>
